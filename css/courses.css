@@ -1,0 +1,163 @@
+body {
+	background-color: rgb(250, 250, 250);
+}
+#btn-back-to-top {
+	position: fixed;
+	height: 35px;
+	width: 35px;
+	background-color: #ff7f56;
+	border-radius: 50%;
+	border: none;
+	bottom: 15px;
+	right: 15px;
+	display: none;
+	box-shadow: 0 4px 4px rgba(255, 127, 86, 0.35);
+	cursor: pointer;
+}
+
+#btn-back-to-top img {
+	transform: rotate(-90deg);
+}
+/* End here */
+.heading {
+	width: 100vw;
+	height: 200px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	font-size: 110px;
+	font-weight: 600;
+}
+
+.card-container {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.card {
+	height: 284px;
+	width: 310px;
+	margin-top: 20px;
+}
+.main-card {
+	height: 240px;
+	width: 190px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	cursor: pointer;
+	background-color: #fff;
+}
+.banner {
+	height: 50%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+.detail {
+	height: 50%;
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.card-title {
+	display: flex;
+	flex-direction: column;
+}
+.name {
+	font-weight: 600;
+	font-size: 18px;
+	margin-left: 10px;
+}
+.class {
+	font-weight: 300;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.card-mis {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.lesson,
+.hour {
+	font-weight: 500;
+	font-size: 12px;
+	margin-left: -8px;
+}
+
+.copyright {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 50px;
+	/* border: 1px solid black; */
+	margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+	.heading {
+		font-size: 100px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.heading {
+		font-size: 90px;
+	}
+	div.copyright {
+		display: flex;
+	}
+	li.copyright {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.heading {
+		font-size: 70px;
+		height: 170px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.heading {
+		font-size: 60px;
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.heading {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.heading {
+		font-size: 40px;
+		height: 120px;
+	}
+	div.copyright {
+		display: none;
+	}
+	li.copyright {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	#btn-back-to-top {
+		right: 10px;
+		bottom: 10px;
+	}
+}

@@ -1,0 +1,47 @@
+nav {
+	/* border: 1px solid red; */
+	background-color: #fff;
+	position: fixed;
+}
+.yt-btn {
+	background-color: #ff3939;
+	box-shadow: 0 4px 7px rgba(255, 57, 57, 0.25);
+}
+
+.arrow-right {
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 14px solid #fff;
+}
+
+@media screen and (max-width: 600px) {
+	.arrow-right {
+		border-top: 7px solid transparent;
+		border-bottom: 7px solid transparent;
+		border-left: 12px solid #fff;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.arrow-right {
+		border-top: 6px solid transparent;
+		border-bottom: 6px solid transparent;
+		border-left: 10px solid #fff;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.arrow-right {
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		border-left: 8px solid #fff;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.arrow-right {
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		border-left: 8px solid #fff;
+	}
+}
